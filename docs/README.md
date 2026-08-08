@@ -1,0 +1,9 @@
+# OctoAcme Project Management Processes
+
+OctoAcme runs projects with an iterative, customer-first approach and clear ownership. Each initiative is assigned a Project Manager (PM) and a Product Lead (PdM), and follows a simple lifecycle: initiation (one-pager and stakeholder alignment), planning (backlog, Definition of Done, release plan), execution (build, test, review), release (deploy and verify), and close/retrospective. This lightweight lifecycle helps teams validate ideas quickly, align stakeholders, and move into repeatable delivery cycles.
+
+Workflows are Git-centric and checklist-driven. Teams use a project board with columns such as Backlog, Ready, In Progress, In Review, QA, and Done. Pull requests should be small where possible and include an issue link, acceptance criteria, and automated CI checks (tests and linting) before requesting review. Planning uses templates for one-pagers and backlog items, and a risk register captures dependencies and mitigation plans surfaced during weekly syncs.
+
+Communication emphasizes frequent, focused touchpoints and transparent stakeholder updates. Day‑to‑day coordination occurs in short daily standups and weekly delivery syncs; the PM and PdM run a weekly alignment; demos/reviews happen at the end of each sprint or milestone; and monthly stakeholder updates summarize broader progress. Escalation paths run from the team level up to PM, Product Lead, and Sponsor to ensure timely resolution of blockers.
+
+Quality assurance and release discipline are embedded throughout the lifecycle. Teams require unit and integration tests, security scans in CI, and end‑to‑end smoke tests for critical flows, with manual QA used where needed for acceptance. Release checklists include staging verification, rollback and mitigation plans, release notes, and post‑deploy verification. Continuous improvement is reinforced through retrospectives that produce small, prioritized action items tracked back into the backlog.
